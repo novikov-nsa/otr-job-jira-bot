@@ -1,8 +1,0 @@
-nsa\rest_service\rest_service\data\jpa\service\HotelRepository.class
-nsa\rest_service\rest_service\data\jpa\service\CitySearchCriteria.class
-nsa\rest_service\rest_service\data\jpa\domain\Hotel.class
-nsa\rest_service\rest_service\data\jpa\domain\City.class
-nsa\rest_service\rest_service\data\jpa\SampleDataRestApplication.class
-nsa\rest_service\rest_service\data\jpa\service\BaseResponse.class
-nsa\rest_service\rest_service\data\jpa\service\WebHook.class
-nsa\rest_service\rest_service\data\jpa\service\CityRepository.class
