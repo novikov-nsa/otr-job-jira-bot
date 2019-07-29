@@ -43,7 +43,7 @@ public class WorkWithMessages {
         String message = childNodeText.asText();
         System.out.println("---------------------------------");
         System.out.println(message);
-        String answerMessage = "Автоматический ответ> "+message;
+        String answerMessage = "Auto answer --> "+message;
         sendAnswer(chatToken, user_id, answerMessage);
 			} catch (IOException e) {
 				System.out.println(e.getMessage());	
