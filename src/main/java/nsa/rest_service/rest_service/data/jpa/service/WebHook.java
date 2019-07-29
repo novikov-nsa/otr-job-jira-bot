@@ -3,6 +3,9 @@ package nsa.rest_service.rest_service.data.jpa.service;
 import java.io.IOException;
 
 import org.springframework.web.bind.annotation.*;
+
+import chat.tamtam.botapi.exceptions.APIException;
+import chat.tamtam.botapi.exceptions.ClientException;
 import nsa.chatbot.WorkWithMessages;
 
 
@@ -16,7 +19,7 @@ public class WebHook {
     private static final int AUTH_FAILURE = 102;
     
     @RequestMapping(value = "/webhook", method = RequestMethod.POST)
-    public void getMessage(@RequestBody String request) throws IOException {
+    public void getMessage(@RequestBody String request) throws IOException, ClientException, APIException {
     	WorkWithMessages jsonInfo = new WorkWithMessages();
     	jsonInfo.readJson(request);
         
